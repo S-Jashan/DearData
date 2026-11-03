@@ -31,4 +31,4 @@ Of course, I expect that **Rocket League** is a completely **new** topic to you 
 **Thank you** to 
 [Rocket League Tracker](https://rocketleague.tracker.network/)
 for making this data collection possible. 
-> *I used this website to check the peak MMR of all my teammates included in this project. If you are interested, here is [my own tracker](https://rocketleague.tracker.network/rocket-league/profile/steam/j7hrll/overview*), showing my current and peak MMR.*
+> *I used this website to check the peak MMR of all my teammates included in this project. If you are interested, here is [my own tracker](https://rocketleague.tracker.network/rocket-league/profile/steam/76561198254333982/overview), showing my current and peak MMR.*
