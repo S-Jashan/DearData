@@ -25,3 +25,8 @@
 Of course, I expect that Rocket League is a completely new topic to you and many ideas I bring up do not make sense to you.
 
 - I plan to create a small, concise word document providing context on the ranking system and how it works in Rocket League. I will link this in my README and in my repository.
+
+## Credits
+
+Thank you to: https://rocketleague.tracker.network/ for making this data collection possible. 
+> *I used this website to check the peak MMR of all my teammates included in this project. If you are interested, here is my own tracker, showing my current and peak MMR: https://rocketleague.tracker.network/rocket-league/profile/steam/j7hrll/overview*
