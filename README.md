@@ -1,4 +1,4 @@
-# README
+# 📋 Dear Data
 
 > This project is a **work in progress**. I have not finished my data collection or sketch yet.
 
