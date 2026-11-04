@@ -2,7 +2,7 @@
 
 > This project is a **work in progress**. I have not finished my data collection or sketch yet.
 
-## 🌟 About
+## ⭐ About
 
 ### What I am collecting data about
 
