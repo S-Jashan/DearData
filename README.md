@@ -7,7 +7,7 @@
 ### What I am collecting data about
 
 - I am recording the **peak MMR** of my **Rocket League** competitive solo queue 2v2 teammates. As the **competitive season** progresses, I run into teammates with varying MMRs, as higher ranked players gain more MMR and the leaderboards become more spread out.
-- In addition to recording my teammates' peak MMR, I am also recording **interesting observations** related to the match/my teammate, including: *Points difference, Win or Loss, Cool tags etc*.
+- In addition to recording my teammates' peak MMR, I am also recording **interesting observations** related to the match/my teammate, including: *Points difference, Win or Loss, Cool tags, etc*.
 
 ### Why this topic interests me
 
