@@ -24,7 +24,7 @@
 
 Of course, I expect that **Rocket League** is a completely **new** topic to you and many ideas I bring up do not make sense to you.
 
-- I plan to create a small, concise word document providing **context** on the ranking system and how it works in Rocket League. I will link this in my README and in my repository.
+- I plan to create a small, concise word **document** providing context on the **ranked system** and how it works in Rocket League. I will link this in my README and in my repository.
 
 ## Credits
 
