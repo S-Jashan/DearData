@@ -20,13 +20,13 @@
 - I am still finishing my data collection, so I have not finalised my idea for how I will visualise my data.
 - However, my current plan is to show a **graph** of MMR against days into the competitive season, where the viewer is able to **interact** by hovering over data points to bring up an **on-screen interface** showing attributes of each data (Points differece, Win or Loss etc.)
 
-## 📎 Context
+## ⚽ Context
 
 Of course, I expect that **Rocket League** is a completely **new** topic to you and many ideas I bring up do not make sense to you.
 
 - I plan to create a small, concise word **document** providing context on the **ranked system** and how it works in Rocket League. I will link this in my README and in my repository.
 
-## Credits
+## 📎 Credits
 
 **Thank you** to 
 [Rocket League Tracker](https://rocketleague.tracker.network/)
