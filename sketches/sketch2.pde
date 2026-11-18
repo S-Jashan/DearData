@@ -2,16 +2,17 @@ Table data;
 
 void setup () {
   size (1100, 700);
-  background(#CFF4FA);
+  background(#B8FAF2);
   data = loadTable ("datapts5.csv", "header");
   noLoop();
 }
 
 void draw () {
   strokeWeight(1);
+  stroke(120);
   line (60, 640, 1050, 640);
   line (60, 640, 60, 40);
-  fill(0);
+  fill(60);
   strokeWeight(1);
   textAlign(CENTER);
   textSize(18);
