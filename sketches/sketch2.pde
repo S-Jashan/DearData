@@ -16,7 +16,7 @@ void draw () {
   strokeWeight(1);
   textAlign(CENTER);
   textSize(18);
-  text ("Days into ranked season", (1050-60)/2 + 60, 680);
+  text ("Games played of solo queue 2v2", (1050-60)/2 + 60, 680);
   pushMatrix();
   translate(30, 640 - (640 - 40)/2);
   rotate(-PI/2);
@@ -45,8 +45,8 @@ void draw () {
     fill (50);
     circle(mapDays, mapMmr, 10);
   }
-  float averageVal = sum/totalData;
-  float avgY = map(averageVal, 1600, 2200, 640, 40);
+  float averageMmr = sum/totalData;
+  float avgY = map(averageMmr, 1600, 2200, 640, 40);
   stroke (#FA9092);
   strokeWeight(2);
   line(60, avgY, 1050, avgY);
@@ -55,17 +55,26 @@ void draw () {
   float stepSize = 100;
   for (float v = 1600; v <= 2200; v += stepSize) {
     float yPos = map(v, 1600, 2200, 640, 40);
-    stroke(194, 194, 194, 100);
+    stroke(224, 224, 224, 70);
     line(60, yPos, 1050, yPos);
     fill(70);
     strokeWeight(2);
     text(int(v), 30, yPos);
   }
   textSize(12);
-  fill(70);
+  fill (50);
   textAlign(CENTER, TOP);
-  int totalDays = data.getColumnCount();
-  int stepSize
+  int gameInterval = 10;
+
+  for (int i = 0; i < totalData; i +=gameInterval) {
+
+    float xPos = map(i, 0, totalData, 60, 1050);
+
+    stroke(224, 224, 224, 70);
+    line(xPos, 40, xPos, 640);
+
+    text("Game " + i, xPos, 650);
+  }
 }
 
 boolean winLoss (String a) {
