@@ -4,10 +4,11 @@ void setup () {
   size (1100, 700);
   data = loadTable ("datapts5.csv", "header");
   noLoop();
+  color hoverColour = (#D38A2B);
 }
 
 void draw () {
-  background(#B8FAF2);
+  background(#EBF2FA);
   strokeWeight(1);
   stroke(120);
   line (60, 640, 1050, 640);
@@ -22,6 +23,26 @@ void draw () {
   rotate(-PI/2);
   text ("Teammate's peak MMR", 0, 0);
   popMatrix();
+  fill (130, 130, 130, 40);
+  stroke(180, 180, 180, 20);
+  strokeWeight(4.5);
+  rect (950, 50, 140, 70);
+  strokeWeight(1);
+  stroke(#F59CEF);
+  fill (50);
+  circle(967, 72, 10);
+  fill (0);
+  noStroke();
+  textAlign(CENTER);
+  textSize(12);
+  text("Teammate MMR", 1015, 75);
+  fill(#FA9092);
+  strokeWeight(2);
+  stroke(#FA9092);
+  line(960, 95, 974, 95);
+  fill(0);
+  textSize(10);
+  text("Average teammate MMR", 1030, 97);
   float sum = 0;
   int totalData = data.getRowCount();
   for (int i = 0; i <totalData; i++) {
