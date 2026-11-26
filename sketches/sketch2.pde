@@ -78,8 +78,14 @@ void draw () {
       }
       textSize(14);
       textAlign(CENTER);
-      text("name: " + row.getString(0), rectX + 125, rectY + 10);
-      text("peak mmr: " + int(teamMmr), rectX + 125, rectY + 30);
+      text(row.getString(0), rectX + 125, rectY + 10);
+      text("S23 Peak: " + int(teamMmr), rectX + 125, rectY + 30);
+      if (row.getString(4).equals("W")) {
+        text("Win", rectX + 125, rectY + 50);
+      } else {
+        text("Loss", rectX + 125, rectY + 50);
+      }
+      text("Points: " + row.getInt(3), rectX + 125, rectY + 70);
       fill(gcHover);
     }
   }
