@@ -1,6 +1,6 @@
 void drawAxes () {
-  strokeWeight(1);
-  stroke(120);
+  strokeWeight(2);
+  stroke(40);
   line (60, 640, 1050, 640);
   line (60, 640, 60, 40);
   fill(60);
@@ -17,8 +17,8 @@ void drawAxes () {
 
 void drawKey() {
   fill (130, 130, 130, 40);
-  stroke(180, 180, 180, 20);
-  strokeWeight(4.5);
+  stroke(0, 120);
+  strokeWeight(2);
   rect (950, 50, 140, 70);
   strokeWeight(1);
   stroke(#F59CEF);
@@ -56,7 +56,7 @@ void drawAverage(float a) {
 void drawGridY (float a, float b) {
   textSize(12);
   textAlign(LEFT, CENTER);
-  stroke(224, 224, 224, 70);
+  stroke(150, 40);
   line(60, a, 1050, a);
   fill(70);
   strokeWeight(2);
@@ -69,7 +69,7 @@ void drawGridX (int a, int b) {
   textAlign(CENTER, TOP);
   float xPos = map(a, 0, b, 60, 1050);
 
-  stroke(224, 224, 224, 70);
+  stroke(150, 40);
   line(xPos, 40, xPos, 640);
 
   text("Game " + a, xPos, 650);
